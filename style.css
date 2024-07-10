@@ -1,0 +1,269 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+/* banner-container style */
+.banner-container{
+    
+    height: 652px;  
+    background-image: url(./assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.banner-content{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content-2{
+    text-align: center;
+    font-size: 48px;
+}
+.banner-content-3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.banner-content-4{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+
+    background: rgb(13, 19, 33);
+    /* batton er jonno padding  */
+    padding: 21px 24px 21px 24px;
+}
+
+/* Web-Development-container style */
+.Web-Development-container-1{
+    border: 2px solid red;
+    min-height: 1393px;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    margin-top: 74px;
+    margin-left: 148px; ;
+    margin-right:152px ;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgb( 250, 250, 260);
+    margin-bottom: 80px;
+
+}
+
+.Web-Development-container{
+    border: 2px solid red;
+    min-height: 1393px;
+    margin: 0 auto;
+    
+    
+}
+.Web-Development-content{
+    border: 2px solid green;
+}
+.Web-Development-content-1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.Web-Development-content-2{
+    margin-left: 47px;
+    margin-right: 47px;
+    text-align: center;
+}
+
+/* formet-8 style  */
+.formet-8{
+    border: 2px solid black;
+    padding: 48px;
+    margin-top: 48px;
+}
+
+.formet-10{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid pink;
+}
+
+.formet-10 .formet-9 h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.formet-10 .formet-9 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.formet-10 .formet-9 button{
+    
+    color: rgb(183, 185, 189);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    margin-top: 32px;
+    
+}
+
+/* second part  */
+.frame-9-2nd{
+    padding: 48px;
+    border: 2px solid black;
+    margin-top: 32px;
+}
+.frame-10-2nd{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-start; */
+    border: 2px solid pink;
+    
+}
+.frame-10-2nd .frame-9{
+    margin-right: 101px;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+    margin-left: 32px;
+}
+
+.frame-10-2nd .Group-2{
+    margin-bottom: 31.15px;
+    
+}
+.frame-9 h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.frame-9 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.frame-9 button{
+    color: rgb(183, 185, 189);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    margin: 32px 0px;
+
+}
+
+
+.frame-9 button{
+    font-family: Azeret Mono;
+}    
+
+
+
+.frame-10-3rd{
+    border: 2px solid chartreuse;
+    padding: 48px;
+    margin-top: 70px;
+}
+.frame-10-3rd-0{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.frame-9-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 133px;
+
+}
+.frame-9-content h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.frame-9-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+.frame-9-content button{
+    color: rgb(183, 185, 189);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 20px 12px 20px;
+    margin: 0px 10px;
+    margin-left: 0;
+}
+
+
+/* frame-15 style  */
+
+.frame-15{
+    border: 2px solid red;
+    min-height: 1393px;
+    margin: 0 auto;
+    
+    margin-top: 74px;
+    margin-left: 148px; ;
+    margin-right:152px ;
+    padding: 80px 97px 0px 97px;
+    border-radius: 16px;
+    background: none;
+    margin-bottom: 1px;
+    
+
+}
+.frame-15-content{
+    text-align: center;
+    flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 48px 0px;
+}
+
+.frame-15-content-1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.frame-15-content-2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+
+
