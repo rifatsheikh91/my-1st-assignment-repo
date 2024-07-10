@@ -231,7 +231,7 @@ body{
     margin-top: 200px;
     margin: 0 auto;
     width: 1440px;
-    margin-top: 88px;
+    margin-top: 88px;                                     
     
 
 }
@@ -276,7 +276,7 @@ iframe {
 .my-current-target{
     width: 1440px;
     height: 460px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     margin-top: 151px;
 
@@ -314,16 +314,91 @@ iframe {
 
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
+    width: 364px;
 }
 .css{
     border-radius: 16px;
 
     background: rgba(0, 76, 232, 0.05);
     padding: 40px;
+    width: 364px;
 }
 .js{
     border-radius: 16px;
 
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
+    width: 364px;
+}
+
+/* i-need-support SECTION  */
+
+
+footer {
+    width: 1440px;
+    height: 314px;
+    
+    margin: 0 auto;
+    margin-top: 110px;
+    border-radius: 16px;
+    background-image: url(./assets/handshake.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    padding: 64px 48px 64px 48px;
+    
+}
+
+.i-need-support h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.i-need-support p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 50px x;
+
+
+}
+
+/* Submit-button */
+.Submit-button{
+    margin: 0 auto;
+width: 548px;
+height: 57px;
+text-align: center;
+padding: 10px;
+border-radius: 16px;
+}
+
+.Submit-button input , .Submit-button button{
+    padding: 20px 13px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 80px;
+}
+
+.Submit-button input{
+    width: 390px;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.Submit-button button{
+    width: 120px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
 }
