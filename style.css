@@ -334,8 +334,8 @@ iframe {
 /* i-need-support SECTION  */
 
 
-footer {
-    width: 1440px;
+.footer-fast {
+    width: 1359px;
     height: 314px;
     
     margin: 0 auto;
@@ -401,4 +401,18 @@ border-radius: 16px;
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
+}
+/* fifth footer */
+.contact-link{
+    border-radius: 16px;
+background-color: rgba(13, 19, 33, 0.03);
+margin-top: 70px;
+padding: 20px;
+}
+.contact-link-style{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1459px;
+    margin-top: 24px;
 }
